@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { getAuthToken } from './auth';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://e-commerence-product-search.onrender.com/api';
 
 export interface Message {
   content: string;
