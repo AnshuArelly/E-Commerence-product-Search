@@ -19,7 +19,7 @@ def search_product_images_with_selenium(query):
     options.add_argument("--no-sandbox")  # Required for certain environments like Render
     options.add_argument("--disable-dev-shm-usage")  # Necessary for Docker containers and Render
     options.add_argument("--remote-debugging-port=9222")  # Optional, enables debugging
-    options.binary_location = "/usr/bin/chromium-browser"  # Point to the Chromium binary
+   options.binary_location = "/opt/homebrew/bin/chromium"  # Point to the Chromium binary
 
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=options)
