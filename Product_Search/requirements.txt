@@ -1,9 +1,6 @@
-pip install requests beautifulsoup4
-
-pip install selenium
-
-pip install webdriver-manager
-
-pip install Flask selenium webdriver-manager
-
-AIzaSyA_MDNVvTkfn_kD7gtrpNsxnXADwK44DbE
+requests
+beautifulsoup4
+selenium
+webdriver-manager
+Flask
+flask_cors
