@@ -89,7 +89,7 @@ const ChatInterface = ({ chatId, onNewChat, resetMessages }: ChatInterfaceProps)
         };
       } else {
         // Using your fallback API (axios call)
-        const response = await axios.get('https://e-commerence-product-search.onrender.com/search', {
+        const response = await axios.get('https://e-commerence-product-search-1.onrender.com/search', {
           params: { query: input },
         });
   
